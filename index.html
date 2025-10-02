@@ -10,11 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
-        /* Estilo base do corpo e da animação */
         body {
             margin: 0;
             min-height: 100vh;
-            /* 2. APLICAÇÃO DA FONTE POPPINS (ALTERADO AQUI) */
+
             font-family: 'Poppins', sans-serif;
             font-size: 1rem;
             color: white;
@@ -26,7 +25,7 @@
             box-sizing: border-box;
         }
 
-        /* Animação original */
+
         @keyframes mudarCores {
             0% {
                 background-position: 0% 50%;
@@ -41,50 +40,49 @@
             }
         }
 
-        /* Container principal para o conteúdo */
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
         }
 
-        /* ---- NOVOS ESTILOS PARA O CABEÇALHO ---- */
+
 
         header {
             display: flex;
-            /* Ativa o Flexbox */
+
             align-items: center;
-            /* Alinha a foto e o texto verticalmente */
+
             justify-content: center;
-            /* Centraliza o conjunto foto+texto */
+
             gap: 30px;
-            /* Espaço entre a foto e o texto */
+
             padding: 40px 0;
             max-width: 800px;
-            /* Limita a largura para não ficar muito espalhado */
+
             margin: 0 auto 40px auto;
-            /* Centraliza o header na página */
+
         }
 
         .foto-perfil {
             width: 150px;
             height: 150px;
             background-color: #333;
-            /* Cor de fundo caso a imagem não carregue */
-            /* COLOQUE O LINK DA SUA FOTO AQUI */
+
             background-image: url('imagens/fotoportifolio.jpg');
-            /* Imagem de exemplo */
+
             background-size: cover;
             background-position: center;
             border-radius: 50%;
-            /* Deixa a imagem redonda */
+
             border: 4px solid rgba(255, 255, 255, 0.5);
             flex-shrink: 0;
-            /* Impede que a foto encolha */
+
         }
 
         .info-pessoal {
             text-align: left;
-            /* Alinha apenas este texto à esquerda */
+
         }
 
         .info-pessoal h1 {
@@ -98,7 +96,7 @@
             color: #ddd;
         }
 
-        /* O resto do conteúdo continua centralizado */
+
         nav,
         section {
             text-align: center;
@@ -121,7 +119,7 @@
             margin-bottom: 40px;
         }
 
-        /* Estilo dos Botões */
+
         .botao {
             text-decoration: none;
             color: white;
@@ -146,7 +144,7 @@
             transform: translateY(-3px);
         }
 
-        /* Estilo dos Cards de Projeto */
+
         .cards-container {
             display: flex;
             justify-content: center;
@@ -165,7 +163,7 @@
             -webkit-backdrop-filter: blur(10px);
             transition: transform 0.3s ease;
             text-align: left;
-            /* Alinhamento do texto dentro do card */
+
         }
 
         .card:hover {
@@ -178,11 +176,11 @@
         }
 
         .card .botao {
-            /* Ajuste no botão dentro do card */
+
             margin: 15px 0 0 0;
         }
 
-        /* Seção de Habilidades */
+
         .habilidades-container {
             display: flex;
             justify-content: center;
@@ -231,7 +229,7 @@
             transform: translateY(-5px);
         }
 
-        /* ---- ESTILOS PARA A SEÇÃO DE CONTATO ---- */
+
         .contato-links {
             display: flex;
             justify-content: center;
